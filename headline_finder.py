@@ -8,7 +8,7 @@ class GetNews(object):
 
         wsj_url = ('https://newsapi.org/v2/top-headlines?'
                    'sources=the-wall-street-journal&'
-                   'apiKey=ef100ac3b1004ec29e250c08fdc8ba27')
+                   'apiKey=API KEY GOES HERE')
 
         title_number = 1
         json_data = requests.get(wsj_url).json()
